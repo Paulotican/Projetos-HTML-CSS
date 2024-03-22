@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title> fale-conosco </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+
+	<body background="imagens/fundo2.png">
+			<div id="area-cabecalho">
+
+				 <div id="areo-logo">
+				 	<h1>Espaço<span class="branco">Ga</span></h1>
+				 </div>
+				 <div id="area-menu">
+				 	<a href="index.html">Home</a>
+				 	<a href="Drenagem.html">Drenagem</a>
+				 	<a href="Bronzejato.html">Bronze Jato</a>
+				 	<a href="Esfoliação.html">Esfoliação</a>
+				 	<a href="fale-conosco.html">Fale Conosco</a>
+				 	<a href="cadastro.html">Cadastro</a>
+				 	<a href="Logar.html">Faça seu login</a>
+			 	</div>
+
+			</div>
+
+				
+
+			<div>
+				<h2 id="oi">Fale Conosco</h2><br>
+
+				<hr>
+
+			<h2 id="form">Fale Conosco</h2>
+		<form id="form" action="processa.php">
+
+			<fieldset>
+				<legend>Contato</legend>
+				
+				<div>
+					<label for="name"> Nome:</label>
+					<!--<input type="text" name="nome1">-->
+					<input id="name" class="input" name="nome" type="text" value="" size="50" placeholder="Nome" required="required" />
+				</div>				
+				<div>
+					<label for="email">E-mail:</label>
+					<!--<input type="text" name="email"><br><br>-->
+					<input id="email" class="input" name="email" type="text" value="" size="50" placeholder="email" required="required" />
+				</div>
+
+				<div>
+					<label for="Assunto"> Assunto:</label>
+					<!--<input type="text" name="Telefone" >-->
+					<input id="Assunto" class="input" name="Assunto" type="text" value="" size="50" placeholder="Assunto" required="required" />
+					</div>
+			</fieldset>
+
+			<fieldset>
+				<legend>Comentario</legend>
+				<div><label for="mesange"> Mesangem:</label><br>
+				<!--<textarea></textarea>-->
+				 <textarea id="mesange" class="input" name="mesange" rows="7" cols="100" placeholder="Digite sua Mesangem" required="required"></textarea>
+				 </div>
+			</fieldset>
+			<br>
+
+			<input type="submit" value="Enviar">
+
+		 </form> 
+
+				<!--
+				<div id="after_submit"></div>
+				<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+				  <div class="row">
+				    <label class="required" for="name">Nome:</label><br />
+				    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+				    <span id="name_validation" class="error_message"></span>
+				  </div>
+				  <div class="row">
+				    <label class="required" for="email">E-mail:</label><br />
+				    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+				    <span id="email_validation" class="error_message"></span>
+				  </div>
+				  <div class="row">
+				    <label class="required" for="message">Messagem:</label><br />
+				    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				    <span id="message_validation" class="error_message"></span>
+				  </div>
+				    
+				    <input id="submit_button" type="submit" value="Enviar" />
+				</form>
+
+		</form>-->
+
+			</div>
+			<div id="rodape">
+				<h4>Todos os direitos reservados<br>Paulo Daniel</h4>
+			</div>
+
+
+	</body>
